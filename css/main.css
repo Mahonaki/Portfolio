@@ -61,7 +61,7 @@ body {
     margin-left: 20px;
 }
 
-/* Mobile */
+/*----- Mobile -----*/
 @media only screen and (max-width: 600px) {
     .header-primary {
         font-size: 60px;
@@ -116,6 +116,11 @@ body {
 .projects__primary, .projects__secondary {
     display: flex;
     justify-content: space-around;
+}
+
+.projects__secondary__wrapper {
+    width: 150px;
+    height: 200px;
 }
 
 .projects__primary {
