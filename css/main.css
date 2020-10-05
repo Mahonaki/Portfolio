@@ -23,7 +23,6 @@ body {
     display: none;
 }
 
-
 .parallax {
     background-position: center;
     background-size: cover;
@@ -73,7 +72,9 @@ body {
         line-height: 45px;
     }
 
-    .header-tertiary, .paragraph, .list {
+    .header-tertiary,
+    .paragraph,
+    .list {
         font-size: 20px;
         line-height: 25px;
     }
@@ -96,11 +97,9 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-
     .about {
         padding: 40px 20px;
     }
-
 }
 
 /*----- Projects -----*/
@@ -113,7 +112,8 @@ body {
     margin-left: 50px;
 }
 
-.projects__primary, .projects__secondary {
+.projects__primary,
+.projects__secondary {
     display: flex;
     justify-content: space-around;
 }
@@ -127,8 +127,8 @@ body {
     margin-bottom: 40px;
 }
 
-
-.projects__primary__wrapper, .projects__secondary__wrapper {
+.projects__primary__wrapper,
+.projects__secondary__wrapper {
     text-align: center;
     margin: 0 25px;
     filter: grayscale(100);
@@ -136,7 +136,8 @@ body {
     transition-duration: 0.3s;
 }
 
-.projects__primary__wrapper:hover, .projects__secondary__wrapper:hover {
+.projects__primary__wrapper:hover,
+.projects__secondary__wrapper:hover {
     filter: grayscale(0);
 }
 
@@ -145,7 +146,6 @@ body {
     width: 100%;
     border-radius: 10px;
 }
-
 
 @media only screen and (max-width: 600px) {
     .projects {
@@ -181,14 +181,13 @@ body {
     justify-content: center;
     padding-top: 30px;
     padding-bottom: 10px;
-    background-color: #F2C1C4;
+    background-color: #f2c1c4;
     text-align: center;
 }
 
 .social__wrapper {
     width: 250px;
 }
-
 
 .social__wrapper__icon {
     animation: rotate(0deg);
