@@ -103,6 +103,19 @@ body {
 }
 
 /*----- Projects -----*/
+.reindeer {
+    width: 500px;
+}
+.projects__primary__wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+.projects__secondary__wrapper__iframe {
+    transform: scale(0.7);
+    position: relative;
+    left: 0;
+}
 
 .projects {
     padding: 100px 50px;
@@ -112,23 +125,23 @@ body {
     margin-left: 50px;
 }
 
-.projects__primary,
-.projects__secondary {
+.projects__secondary,
+.projects__tertiary {
     display: flex;
     justify-content: space-around;
 }
 
-.projects__secondary__wrapper {
+.projects__tertiary__wrapper {
     width: 150px;
     height: 200px;
 }
 
-.projects__primary {
+.projects__secondary {
     margin-bottom: 40px;
 }
 
-.projects__primary__wrapper,
-.projects__secondary__wrapper {
+.projects__secondary__wrapper,
+.projects__tertiary__wrapper {
     text-align: center;
     margin: 0 25px;
     filter: grayscale(100);
@@ -136,13 +149,13 @@ body {
     transition-duration: 0.3s;
 }
 
-.projects__primary__wrapper:hover,
-.projects__secondary__wrapper:hover {
+.projects__secondary__wrapper:hover,
+.projects__tertiary__wrapper:hover {
     filter: grayscale(0);
 }
 
-.projects__primary__wrapper img,
-.projects__secondary__wrapper img {
+.projects__secondary__wrapper img,
+.projects__tertiary__wrapper img {
     width: 100%;
     border-radius: 10px;
 }
@@ -156,19 +169,19 @@ body {
         margin-left: 0;
     }
 
-    .projects__primary {
+    .projects__secondary {
         flex-direction: column;
     }
 
-    .projects__secondary {
+    .projects__tertiary {
         flex-wrap: wrap;
     }
 
-    .projects__secondary__wrapper {
+    .projects__tertiary__wrapper {
         width: 87px;
     }
 
-    .projects__secondary__wrapper .paragraph {
+    .projects__tertiary__wrapper .paragraph {
         font-size: 18px;
         line-height: 23px;
     }
@@ -298,5 +311,10 @@ body {
 
     .social__wrapper {
         padding-bottom: 15px;
+    }
+    .projects__secondary__wrapper__iframe {
+        width: 400px;
+        left: 0;
+        flex-wrap: wrap;
     }
 }
