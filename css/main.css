@@ -126,11 +126,22 @@ body {
 .projects__secondary__wrapper__iframe {
     position: relative;
     border: none;
+    display: block;
+    padding: 0;
+    height: 520px;
+    margin-top: 50px;
 }
-.b-a-text {
-    font-size: 25px;
-    text-align: center;
-    position: relative;
+.projects__secondary__text-after {
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-left: 65vh;
+    display: inline-block;
+}
+.projects__secondary__text-before {
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-left: 9vh;
+    display: inline-block;
 }
 .projects__tertiary {
     display: flex;
@@ -184,6 +195,9 @@ body {
     .projects__tertiary__wrapper .paragraph {
         font-size: 18px;
         line-height: 23px;
+    }
+    .reindeer {
+        width: 250px;
     }
 }
 
